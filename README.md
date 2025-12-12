@@ -33,5 +33,5 @@ CUDA_VISIBLE_DEVICES=0 python3.8 train_S3DIS.py
 
 
 
-Our code builds on [GrowSP](https://github.com/vLAR-group/GrowSP/). Many thanks to GrowSP for a fantastic framework.
+**Our code builds on [GrowSP](https://github.com/vLAR-group/GrowSP/). Many thanks to GrowSP for a fantastic framework.**
 
