@@ -145,13 +145,7 @@ def eval(epoch, args, test_areas = ['Area_5']):
 
 if __name__ == '__main__':
     args = parse_args()
-    args.save_path =  r"/home/magic2/syh/GrowSP-main/ckpt/S3DIS_2024-04-11_15-13" 
     epoch = 1180
     o_Acc, m_Acc, s = eval(epoch, args, test_areas = ['Area_5'])
     print('Epoch: {:02d}, oAcc {:.2f}  mAcc {:.2f} IoUs'.format(epoch, o_Acc, m_Acc), s)
     
-    # for epoch in range(10, 1500):
-    #     if epoch % 1180 == 0:  #epoch num
-    #         o_Acc, m_Acc, s = eval(epoch, args, test_areas = ['Area_5'])
-    #         # o_Acc, m_Acc, s = eval(epoch, args)
-    #         print('Epoch: {:02d}, oAcc {:.2f}  mAcc {:.2f} IoUs'.format(epoch, o_Acc, m_Acc), s)
