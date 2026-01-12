@@ -28,7 +28,7 @@ python data_prepare/initialSP_prepare_S3DIS.py
 
 ### Training:
 ```shell script
-CUDA_VISIBLE_DEVICES=0 python3.8 train_S3DIS.py
+CUDA_VISIBLE_DEVICES=0 python3.8 train_S3DIS_lvwConv.py
 ```
 
 
