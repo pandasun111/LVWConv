@@ -145,7 +145,7 @@ def eval(epoch, args, test_areas = ['Area_5']):
 
 if __name__ == '__main__':
     args = parse_args()
-    epoch = 1180
+    epoch = 680
     o_Acc, m_Acc, s = eval(epoch, args, test_areas = ['Area_5'])
     print('Epoch: {:02d}, oAcc {:.2f}  mAcc {:.2f} IoUs'.format(epoch, o_Acc, m_Acc), s)
     
